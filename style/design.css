@@ -1,0 +1,41 @@
+@font-face {
+	font-family: "Fipps";
+	src: url(../font/fipps_regular.otf);
+	font-size: 8;
+}
+
+body {
+	background-color: #222;
+	margin: 0px;
+}
+
+#wrapper {
+	position: absolute;
+	width: 280px;
+	height: 440px;
+}
+
+#scorediv {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	font-family: Fipps;
+}
+
+#gameover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	line-height: 400px;
+	text-align: center;
+	font-family: Fipps;
+	font-size: 24px;
+	color: black;
+	display: none;
+}
